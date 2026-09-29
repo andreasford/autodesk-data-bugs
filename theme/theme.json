@@ -1,0 +1,67 @@
+{
+  "prospect": {
+    "name": "Autodesk",
+    "short": "Autodesk",
+    "domain": "autodesk.com"
+  },
+  "title": "Autodesk vs The Data Bugs",
+  "tagline": "Made for Autodesk Analytics Data by PostHog",
+  "palette": {
+    "primary": "#136B9A",
+    "secondary": "#000000",
+    "accent": "#FFC21A"
+  },
+  "products": [
+    "experiments",
+    "error_tracking",
+    "product_analytics",
+    "feature_flags",
+    "session_replay"
+  ],
+  "music": {
+    "mood": "driving, precise, techy, steady build, confident",
+    "bpm": 152
+  },
+  "text": {
+    "win": "Every pipeline green, every model measured, and not one null made it to a dashboard.",
+    "lose": "The nulls got through this time. Rerun the pipeline and try again.",
+    "credits": "Made for the Autodesk Analytics Data team by PostHog"
+  },
+  "game": {
+    "difficulty": "normal",
+    "starting_product": "experiments",
+    "arena": {
+      "name": "The Data Lakehouse",
+      "sprite_prompt": "dark blue blueprint grid paper with thin white lines, seen from above"
+    },
+    "enemies": [
+      {
+        "name": "Null Gnat",
+        "pain": "Nulls where the numbers should be",
+        "sprite_prompt": "a tiny hollow grey gnat shaped like a zero"
+      },
+      {
+        "name": "Schema Drifter",
+        "pain": "A column renamed upstream. Again.",
+        "sprite_prompt": "a blue beetle with a wobbly table grid pattern on its back"
+      },
+      {
+        "name": "Backfill Beetle",
+        "pain": "1,000 pipelines and one of them is red",
+        "sprite_prompt": "a big slow yellow beetle carrying a long metal pipe"
+      }
+    ],
+    "boss": {
+      "name": "Black Box Model",
+      "taunt": "Twenty models, zero idea which one is worth it!",
+      "sprite_prompt": "a giant black cube-shaped beetle with one glowing yellow eye and many cable legs"
+    },
+    "product_lines": {
+      "experiments": "A/B test the models, not the vibes",
+      "error_tracking": "Stack traces from every pipeline, one place",
+      "product_analytics": "See which teams actually call your API",
+      "feature_flags": "Roll a new model out to one team first",
+      "session_replay": "Watch how teams use your internal tools"
+    }
+  }
+}
